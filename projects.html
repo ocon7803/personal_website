@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Alex Rivera</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">alexrivera<span class="dot">.dev</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="projects.html" aria-current="page">projects</a></li>
+        <li><a href="resume.html">resume</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 40px;">
+    <div class="wrap">
+      <p class="eyebrow">Projects</p>
+      <h1 class="hero-name" style="font-size: clamp(28px, 4vw, 40px);">Things I've built</h1>
+      <p class="hero-role">A running log of side projects and things I've shipped, newest first.</p>
+    </div>
+  </section>
+
+  <section class="block" style="border-bottom: none; padding-top: 20px;">
+    <div class="wrap">
+      <div class="changelog">
+
+        <article class="entry">
+          <div class="entry-head">
+            <span class="entry-tag">v1.2.0</span>
+            <span class="entry-date">2026</span>
+          </div>
+          <h3 class="entry-title">Project One</h3>
+          <p class="entry-desc">Describe the problem this solved, who it's for, and one interesting technical decision — e.g. why you chose a particular data model, or a tricky bug you solved.</p>
+          <div class="entry-stack">
+            <span class="chip">TypeScript</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">PostgreSQL</span>
+          </div>
+          <div class="entry-links">
+            <a href="#">Live demo →</a>
+            <a href="#">Source →</a>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <span class="entry-tag">v0.9.1</span>
+            <span class="entry-date">2025</span>
+          </div>
+          <h3 class="entry-title">Project Two</h3>
+          <p class="entry-desc">Same format: what it does, why it exists, what's notable about the build.</p>
+          <div class="entry-stack">
+            <span class="chip">Python</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">Docker</span>
+          </div>
+          <div class="entry-links">
+            <a href="#">Live demo →</a>
+            <a href="#">Source →</a>
+          </div>
+        </article>
+
+        <article class="entry" style="opacity: 0.55;">
+          <div class="entry-head">
+            <span class="entry-tag" style="background: transparent; border: 1px dashed var(--line-strong); color: var(--ink-faint);">add project</span>
+          </div>
+          <h3 class="entry-title" style="color: var(--ink-faint);">Copy an &lt;article class="entry"&gt; block above to add another project here.</h3>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="footer-note">© 2026 Alex Rivera</span>
+    <span class="footer-note">built with plain HTML/CSS</span>
+  </div>
+</footer>
+
+</body>
+</html>
